@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+      font-family: 'Lato', sans-serif;
+
+  }
+
+  .color-white {
+    color: white;
+  }
+
+  .fw-900 {
+    font-weight: 900;
+  }
+
+  nav {
+    height: 12vh;
+    background: #1f1f1f;
+    display: flex;
+
+  }
+
+  .navlogo h1 {
+    height: 6vh;
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-left:2rem;
+    color: white;
+    font-weight: 900;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+
+  }
+
+  .nav-links li {
+      padding: 1rem;
+
+  }
+  .nav-links li:hover {
+    background: #0fd6a8;
+    transition: 0.2s;
+    border-radius: 5%;
+    color: white;
+    text-decoration: none !important;
+  }
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  /* NAV */
+
+  .container {
+    width: 100rem;
+  }
+
+  .aboutus {
+    margin: 5% 5%;
+    height: 30vh;
+    background: #171717;
+    margin-top: 5rem;
+    border-radius: 10px;
+  }
+
+  .welcometext,.aboutustext {
+    margin: 3rem 1.25rem;
+    color: #0fd6a8;
+  }
+
+  .welcomeimg img {
+    height: 20vh;
+    position: relative;
+    margin: 5.75vh 108.3px;
+  }
+
+    /* MEDIA */
+
+.container {
+    max-width: 1600px;
+    margin-top: 10rem;;
+}
+
+.productbox {
+    padding: 1rem;
+    border-color: black;
+    border: 1px;;
+}
+
+.productimage img {
+    width: 100%;
+}
+
+.productdesc {
+    margin-top: 2rem;
+}
+
+.productnamediv h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+p.productprice {
+    font-size: 1rem;
+}
+
+button.buy {
+    background: #0fd6a8;
+    color: white;
+}button.buy:hover {
+  background:aqua;
+  color: white;
+}
+h2#rowheadline {
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 4rem 0;
+}
+
+div.productnamediv {
+  height: 12%;
+}
+
+div.productrow {
+  margin-bottom: 3rem;
+}
+
+.loginbox {
+  border-color: #0fd6a8 ;
+  border-width: 10px;
+}
+.logincol {
+  background-color: #0fd6a8;
+  height: 30rem;
+  padding: 5rem;
+}
+
+.createcol {
+  background-color: whitesmoke;
+  padding: 5rem;
+}
+
+.logincol h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.loginbtn {
+  color: #171717;
+  background-color: white;
+  margin-top: 6rem;
+}
+
+.createcol h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+
+.createcol p {
+  font-size: 1.2rem;
+  margin-top:2rem ;
+}
+
+button.newaccountredirectbtn {
+  color: white;
+  background-color: #252525;
+  margin-top: 9rem;
+}
+
+.createcol2 {
+  background-color: whitesmoke;
+  padding: 5rem;
+}
+
+.createcol2 h1 {
+  color: #171717;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.accountform {
+  margin: 0.5rem 0 ;
+}
+
+.createaccbtn {
+  background-color: #171717;
+  color: white;
+  margin-top: 1rem;
+
+}
+
+.loginredirectbtn {
+  color: white;
+  background-color: #252525;
+  margin-top: 10.5rem;
+}
+
+.logincol2 {
+  background-color: #0fd6a8;
+  height: 30.4rem;
+  padding: 5rem;
+}
+
+.logincol2 h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.logincol2 button {
+  color: #171717;
+  background-color: white;
+  margin-top: 10rem;
+  
+}
