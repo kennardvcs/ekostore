@@ -230,3 +230,13 @@ button.newaccountredirectbtn {
   margin-top: 10rem;
   
 }
+
+.filter-box {
+  padding: 2rem;
+  background: lightgray;
+  border-radius: 5%;
+}
+.filter-box h3 {
+  font-weight: 700;
+}
+

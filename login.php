@@ -41,7 +41,6 @@ $page = "login.php?message=";
         <ul class="nav-links">
             <li><a href="index.php">Home</a></li>
             <li><a href="#">Collection</a></li>
-            <li><a href="login.php">Log In</a></li>
             <li><a href="#">Inquiries</a></li>
         </ul>
     </nav>

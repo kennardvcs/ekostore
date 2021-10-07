@@ -7,4 +7,6 @@
     $register = $url . $postRegister;
     $postLogin = "user/loginUser.php";
     $login = $url . $postLogin;
+    $getAllProduct = "product/getAllProduct.php";
+    $allProduct = $url . $getAllProduct;
 ?>
