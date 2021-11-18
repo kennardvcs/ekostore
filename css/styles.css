@@ -268,3 +268,26 @@ button.newaccountredirectbtn {
   border-left: 1px solid black;
   border-bottom: 1px solid black;
 }
+
+.productnameheadline {
+  font-weight: 700;
+}
+
+.productdesc {
+   font-size: 1.5rem;
+}
+
+button.addtocart {
+  background: #0fd6a8;
+  color: white;
+}
+
+#txtquantity {
+  font-size: 1.2rem;
+  margin-top: .6rem;
+}
+
+#quantity.form-control {
+  font-style: 1.2rem;
+  margin-top: .6rem;
+}

@@ -46,9 +46,12 @@ require("php/apiConfig/requestApi.php");
                                 </div>
                                 <p class="productprice"><?php echo rupiah($data -> product_price);?> </p>
                             </div>
+                            <form action="productpage.php" method="POST">
                                 <div class="buybutton">
+                                    <input type="text" name="product_id" value="<?php echo $data -> product_id ?>" hidden>
                                     <button class="buy btn">Buy</button>
                                 </div>
+                            </form>
                         </div>
                     </div>
             <?php
